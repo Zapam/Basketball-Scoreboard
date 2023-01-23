@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('./CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  background-color: rgb(1, 43, 43);
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin:2em ;
+
+}
+
+.home {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    padding: 50px;
+    background-color: black;
+    font-size:2rem;
+    color: #F94F6D;
+    border-radius: 10px;
+}
+
+button {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: white solid;
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    padding: 0.6rem;
+}
+
+button:first-of-type {
+    margin-left: 0;
+}
+
+button:last-of-type {
+    margin-right: 0.5rem;
+}
+
+.reset {
+    color: #F94F6D;
+    border:  #F94F6D solid;
+}
+
+button:active {
+    font-size:1.4rem ;
+    color: rgba(255, 255, 255, 0.651);
+    border: rgba(255, 255, 255, 0.651) solid;
+    
+}
+
+.reset:active {
+    color: rgba(255, 0, 0, 0.651);
+    border: rgba(248, 0, 0, 0.651) solid;
+}
+
+.resetA {
+    margin-top: 10rem;
+    color: #F94F6D;
+    border:  #F94F6D solid;
+}
+
+.resetA:active {
+    font-size:1.4rem ;
+    color: rgba(255, 0, 0, 0.651);
+    border: rgba(248, 0, 0, 0.651) solid;
+}
+.container >  div{
+    width: 20%;
+}
